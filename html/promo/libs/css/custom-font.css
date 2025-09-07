@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'custom-font';
+  src: url('./font/custom-font.eot?77880496');
+  src: url('./font/custom-font.eot?77880496#iefix') format('embedded-opentype'),
+       url('./font/custom-font.woff2?77880496') format('woff2'),
+       url('./font/custom-font.woff?77880496') format('woff'),
+       url('./font/custom-font.ttf?77880496') format('truetype'),
+       url('./font/custom-font.svg?77880496#custom-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'custom-font';
+    src: url('../font/custom-font.svg?77880496#custom-font') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-custom-"]:before, [class*=" icon-custom-"]:before {
+  font-family: "custom-font";
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+ 
+.icon-custom-gear:before { content: '\e800'; } /* '' */
+.icon-custom-help:before { content: '\e801'; } /* '' */
+.icon-custom-lifebuoy:before { content: '\e802'; } /* '' */

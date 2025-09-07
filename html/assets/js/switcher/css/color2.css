@@ -1,0 +1,198 @@
+
+
+
+.selections-form__radios-radio--acitve .container ,
+.titling__suptext,
+.km-titling__suptext , .km-header-top__links-link:hover,
+.menu-list__item--inner:hover .menu-list__text,.menu-list__link:hover,
+.menu-sublist__link:hover, 
+.km-call__box-link:hover , 
+.km-plans-card__text ,.km-articles-card__link,
+.carbox-card-bottom__price-current,
+.review__link_btn,.articles-card__title:hover,
+.footer__working-text,
+.btn-single-link , .titling--white .titling__suptext , 
+.uk-link-toggle:focus .uk-link, .uk-link-toggle:hover .uk-link, .uk-link:hover, a:hover , .catalog-body__list-link:hover,
+.tm_header_logo_title b,.heading .titling__title .splt + .splt *,
+.banner .titling__suptext,.style-color1,.b-goods-slider__price strong{
+    color: #fabc00
+}
+
+
+
+.fl-video-iframe path  , .types-item__list-item svg path , .box-steps-4_innner_icon path{
+    fill:  #fabc00
+}
+
+
+
+.selection-form__inner .btn ,
+.km-drivers-card-poster .km-socials__list-link ,
+.km-btn,
+html .km-header .dl-menuwrapper button,
+html .km-header .dl-menuwrapper button:hover,
+html .km-header.dl-menuwrapper button.dl-active,
+html .km-header .dl-menuwrapper ul , .call__icon ,
+html .km-header .dl-menuwrapper button,
+html .km-header .dl-menuwrapper button:hover,
+html .km-header.dl-menuwrapper button.dl-active,
+html .km-header .dl-menuwrapper ul ,
+.km-header-content__inner::before,
+.km-call__icon ,
+.car-card__link:not(.km-btn) span:nth-child(2),
+.km-markets-link:hover ,
+.km-articles-card:hover .km-articles-card__link span:nth-child(2),
+.car-card__link:not(.km-btn):hover,
+.car-card-poster__price::before,
+.km-rcslide-swiper .swiper-pagination-bullet:hover,
+.km-rcslide-swiper .swiper-pagination-bullet-active ,
+.km-footer__title span::before,
+.km-footer__title span::after,
+.km-contacts__item-active  , 
+.km-contacts-item__icon ,
+.navigaion--quick .navigaion__list-link:hover span:nth-child(1),
+.km-contact-form__arrow ,
+
+.km-heading .km-titling__link:nth-child(2) span:nth-child(2) ,
+.selections-form__radios .container .checkmark:after,
+html .swiper-pagination-bullet-active,
+.btn
+{
+       background: #fabc00;
+}
+
+
+html .heading::before{
+    background: #fabc00; 
+}
+
+
+.hero-swiper .swiper-pagination-bullet-active
+{
+       background-color: #fabc00 !important;
+}
+
+html .btn.btn-style2:hover{
+    background-color: #fabc00;
+    border-color: #fabc00;
+}
+
+html .articles-card__link{
+   color: #fabc00; 
+    
+}
+
+
+
+.km-btn:hover , .btn:hover {
+    border-color: #fabc00;
+    color: #fabc00;
+}
+
+.btn.btn-style2 {
+    color: #fabc00;
+    border-color: #fabc00;
+}
+
+.btn.btn-style2 path {
+    stroke: #fabc00;
+}
+
+.goods-item__icon svg path , .support__icon svg path{
+      fill: #fabc00  ;
+}
+
+
+html .footer-articles-item__title:hover{
+   color: #fabc00;   
+}
+
+
+.goods-item__icon{
+    border-bottom-color: #fabc00  ;
+} 
+
+
+html .articles-card__link path{
+     stroke: #fabc00
+}
+
+
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    background-color: #fabc00;
+    border-color: #fabc00;
+}
+.km-offer-item__arrow svg path {
+    fill: #fabc00
+}
+
+.km-rcslide-slide-top__img {
+    border-color: #fabc00;
+}
+
+
+@media(max-width: 1100px) {
+    .km-contacts-item:hover .km-contacts-item__icon {
+        background: #fabc00;
+    }
+    
+    .km-contacts-item:hover .km-contacts-item__box-subtext {
+        color: #fabc00;
+    }
+}
+
+
+@media(max-width: 1100px) {
+    .km-contacts-item:hover .km-contacts-item__icon {
+        background: #fabc00
+    }
+    .km-contacts-item:hover .km-contacts-item__box-subtext {
+        color: #fabc00
+    }
+}
+
+
+.carbox-card-info-box__icon  path,
+.box-ico-1_img svg path, .box-ico-1_img img , 
+.articles-card-info__box svg path,
+.footer-articles-item__box svg path{
+    fill:#fabc00;
+
+}
+
+
+.selection-form__range .noUi-connect{
+    background: #fabc00 !important;
+}
+
+.selection-form__range .noUi-handle{
+    border-color: #fabc00;
+}
+
+
+.btn:hover, .selection-form__inner .btn:hover {
+    border-color: #fabc00;
+    color: #fabc00;
+}
+
+
+.btn:hover svg path, .selection-form__inner .btn:hover svg path{
+    stroke:#fabc00;
+}
+
+
+.btn-single-link  svg path{
+    stroke:#fabc00;
+}
+
+
+
+.ui-state-active .catalog-content__button-icon {
+    background-color: #fabc00;
+}
+
+
+#calculator-result span em {
+    color:  #fabc00;
+}

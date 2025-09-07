@@ -1,0 +1,51 @@
+@keyframes previewAnimationImage {
+  from { transform: translateY(0); }
+  50%{ transform: translateY(-6px);}
+  to { transform: translateY(0); }
+}
+@keyframes HeaderButtonAnimation {
+  from { transform: translateX(0); }
+  25%{ transform: translateX(-4px);}
+  75%{ transform: translateX(4px);}
+  to { transform: translateX(0); }
+}
+
+@keyframes svgAnimation {
+  0% { stroke: #49549E; }
+  75% { stroke: #1bceb1; }
+  100% { stroke: #1bce4f; }
+  
+}
+
+@keyframes BuilderImageAnimationTwo {
+  from { transform: translate3d(0, 0, 0); }
+  50%{  transform: translate3d(0, -7px, 0); }
+  to { transform: translate3d(0, 0, 0); }
+}
+
+@keyframes BuilderImageAnimationThree {
+  from { transform: translate3d(0, 0, 0); }
+  50%{  transform: translate3d(-9px, 0, 0); }
+  to { transform: translate3d(0, 0, 0); }
+}
+
+@keyframes DecorIconBoxAnination {
+  from { transform: translate3d(-50%, 0, 0); }
+  50%{  transform: translate3d(-52%, -7px, 0); }
+  to { transform: translate3d(-50%, 0, 0); }
+}
+
+@keyframes TitleArrowAnimation {
+  from { transform: translate3d(0, 0, 0); }
+  50%{  transform: translate3d(0, -7px, 0); }
+  to { transform: translate3d(0, 0, 0); }
+}
+
+@keyframes animatedBackground1 {
+  0%   { left: 100%; }
+  100% { left: 0; } /* set this to the height of the image */
+}
+@keyframes animatedBackground2 {
+  0%   { left: 0; }
+  100% { left: -100%; } /* set this to the height of the image */
+}

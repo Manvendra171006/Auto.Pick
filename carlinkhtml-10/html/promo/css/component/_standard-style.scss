@@ -1,0 +1,172 @@
+$main_color: #de4313;
+$secondary_color: #0172dc;
+$tertiary_color: #89c30c;
+$dark_color: #004789;
+.primary-cl{
+  color: $main_color;
+}
+.primary-bg-cl{
+  background-color: $main_color;
+}
+.secondary-cl{
+  color: $secondary_color;
+}
+.secondary-bg-cl{
+  background-color: $secondary_color;
+}
+.tertiary-cl{
+  color: $tertiary_color;
+}
+.tertiary-bg-cl{
+  background-color: $tertiary_color;
+}
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+.main-container{
+  overflow: hidden;
+}
+image,img{
+  max-width: 100%;
+  height: auto;
+}
+body{
+  font-family: 'Hind', sans-serif;
+  font-weight: 300;
+  line-height: 26px;
+  font-size: 16px;
+  color: #222222;
+}
+a{
+  color: inherit;
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+
+// Default Button
+.default-btn{
+  position: relative;
+  font-size: 13px;
+  letter-spacing: .6px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1;
+  padding: 20px 35px 17px 55px;
+  transition: .3s ease;
+  text-transform: uppercase;
+  &.primary-style{
+    background: $main_color;
+    &:hover{
+      background: $secondary_color;
+    }
+  }
+  &.secondary-style{
+    background: $secondary_color;
+    &:hover{
+      background: $main_color;
+    }
+  }
+  &.border-style{
+    color: #222222;
+    border: 2px solid #222222;
+    &:hover{
+      background: $main_color;
+      border-color: $main_color;
+    }
+  }
+  &:hover{
+    color: #fff;
+    transition: .3s ease;
+  }
+  svg{
+    display: inline-block;
+    transition: transform .2s ease-out,fill .3s ease;;
+    position: absolute;
+    left: -20px;
+    top: calc(50% - 3px);;
+    fill: #00d4ca;
+    width: 60px;
+  }
+  &:hover{
+    svg{
+      transition: transform .2s ease-out, fill .3s ease;
+      transform: scaleX(1.1);
+    }
+  }
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Hind', sans-serif;
+  font-weight: 700;
+}
+
+h1{
+  font-size: 70px;
+}
+h2{
+  font-size: 48px;
+}
+h3{
+  font-size: 40px;
+}
+h4{
+  font-size: 30px;
+}
+h5{
+  font-size: 20px;
+}
+h6{
+  font-size: 18px;
+}
+
+
+.slogan-sub-title{
+  line-height: 64px;
+  font-size: 40px;
+}
+
+.text-bolt-style{
+  font-family: 'Hind', sans-serif;
+  font-weight: 700;
+}
+.text-medium-style{
+  font-family: 'Hind', sans-serif;
+  font-weight: 500;
+}
+
+//
+.title-content-presentation{
+  text-align: center;
+  margin-bottom: 55px;
+  img{
+    max-width: 40px;
+  }
+  h2{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  svg{
+    animation: TitleArrowAnimation 2s ease-in-out infinite;
+    max-width: 60px;
+    display: inline-block;
+  }
+
+  .light-title{
+    color: #fff;
+  }
+
+
+}
+
+button{
+  &:focus{
+    outline:none!important;
+  }
+}
